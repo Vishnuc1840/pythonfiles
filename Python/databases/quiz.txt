@@ -1,0 +1,26 @@
+1)subject
+	id int()
+	name varchar()
+
+2)mode
+
+	id int()
+	name varchar() 
+
+3)question
+
+	id int()
+	subject_id int() 1-M(subject)
+	mode_id int() 1-M(mode)
+	question_text varchar()
+	score int()
+
+4)answers
+
+	id int()
+	answer_text varchar()
+	question_id int() 1-M(question)
+	is_correct boolean
+
+
+MODEL RELATION SHIP

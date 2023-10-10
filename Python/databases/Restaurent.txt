@@ -1,0 +1,35 @@
+1) courses 
+  	 id int()
+  	 name varchar()
+
+2) cuisine 
+  	 id int()
+  	 name varchar()
+
+3) dish
+    	 id int()
+    	 name varchar()
+    	 course_id int() 1-M(courses)
+    	 cuisine_id int() 1-M(cuisine)
+
+4) dish varient
+     	 id int()
+    	 name varchar()
+     	 weight int()
+     	 price int()
+   		
+5)customer id 
+	 id int()
+	 name varchar()
+	 phone int()
+
+6)orders
+	 id int()
+	 dish_varient_id int() M-M(dish varient)
+	 customer id int() 1-M
+	 status varchar()
+
+
+
+
+

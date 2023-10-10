@@ -1,0 +1,16 @@
+a,b,c=15,20,25
+
+print(a)
+print(b)
+print(c)
+
+a=a+b+c # (a=60)
+b=a-(b+c) # b=60-(20+25)=15
+c=a-(b+c) # c=60-(15+25)=20
+a=a-(b+c) # a=60-(15+20)=25
+
+print("after swapping")
+
+print(a)
+print(b)
+print(c)

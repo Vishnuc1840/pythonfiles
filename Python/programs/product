@@ -1,0 +1,17 @@
+actual_price=150
+offer_inperc=5
+discount_price=(actual_price*offer_inperc)/100
+selling_price=actual_price-discount_price
+print(selling_price)
+
+
+
+actual_price=140
+selling_price=135
+#discount in %
+
+disc_perc=(actual_price-selling_price)
+disc_perc=(disc/actual_price)*100
+
+#BODMAS
+#() OF DIVISION * + -

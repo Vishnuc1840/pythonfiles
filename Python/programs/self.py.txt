@@ -1,0 +1,1 @@
+print("i am vishnu. i am from palakkad. i have completed bsc")
